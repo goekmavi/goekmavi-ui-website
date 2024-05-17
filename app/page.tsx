@@ -1,14 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "mavi UI",
-  description: "Tailwind CSS UI component library by goekmavi"
+  title: "goekmavi UI",
+  description: "Tailwind CSS UI component library."
 };
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>
-      Main
-    </main>
+    <div>
+      Home
+    </div>
   );
 }
+
+export default Home;
